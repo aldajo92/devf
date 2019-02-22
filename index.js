@@ -4,7 +4,7 @@ const expresss = require('express');
 const expressip = require('express-ip');
 const app = expresss();
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(expressip().getIpInfoMiddleware)
 app.set('PORT', PORT);
