@@ -547,6 +547,8 @@ healthchecksdb
 
 run_dev.sh
 
+package-lock.json
+
 # End of https://www.gitignore.io/api/node,clion,macos,visualstudio,visualstudiocode
 ×
 Drag and Drop
